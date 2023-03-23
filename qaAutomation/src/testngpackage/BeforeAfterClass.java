@@ -45,7 +45,7 @@ public class BeforeAfterClass {
 	// 3. Initialize Webdriver object through ChromeDriver class.
         browserObject.manage().window().maximize();
     }
- 
+    
 //    14. @AfterTest is used to excute the test case after the test is exceuted
     @AfterTest
     public void afterTest() {

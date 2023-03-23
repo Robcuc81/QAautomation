@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngpackage.TimeOutClass">
+      <class name="testngpackage.Assignment02">
         <methods>
-          <include name="waitFor2Seconds"/>
+          <include name="performLogin"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- testngpackage.TimeOutClass -->
+      </class> <!-- testngpackage.Assignment02 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
